@@ -1,13 +1,3 @@
 def my_select(collection)
-  i = 0
-  new_array = []
-  while i < collection.length
-    if true
-    new_array.push(yield collection[i])
-    i = i + 1
-  else
-    i = i + 1
-  end
-  end
-  new_array
+array.select { |i| yield(i) }
 end 
