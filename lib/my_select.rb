@@ -1,3 +1,3 @@
 def my_select(collection)
-array.select { |i| yield(i) }
+collection.select { |i| yield(i) }
 end 
