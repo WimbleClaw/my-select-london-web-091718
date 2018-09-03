@@ -1,8 +1,9 @@
-def my_select(collection)
+def my_collect(array)
   i = 0
-  while i < collection.length
-    yield collection[i]
+  new_array = []
+  while i < array.length
+    new_array.push(yield array[i])
     i = i + 1
   end
-  colle
-end
+  new_array
+end 
