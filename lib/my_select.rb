@@ -6,6 +6,8 @@ def my_select(collection)
     new_array.push(yield collection[i])
     i = i + 1
   else
+    i = i + 1
+  end
   end
   new_array
 end 
